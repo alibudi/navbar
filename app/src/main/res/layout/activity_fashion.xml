@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".FashionActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini adalah intens"
+        android:id="@+id/fashion"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btn_fashion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#aaaa"
+        android:onClick="btn_fashion"
+        android:text="Back"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="16dp"
+        android:textColor="@color/colorPrimaryDark" />
+</LinearLayout>

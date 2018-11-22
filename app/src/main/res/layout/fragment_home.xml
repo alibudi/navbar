@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/mtrl_bottomappbar_height"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/gunawan"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_gunawan"
+                android:layout_margin="16dp"
+                android:onClick="gunawan"/>
+
+            <ImageView
+                android:id="@+id/maman"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_maman"
+                android:layout_margin="16dp"
+                android:onClick="maman"/>
+
+            <ImageView
+                android:id="@+id/maman2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_maman"
+                android:layout_margin="16dp"
+                android:onClick="maman"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ramdani"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_ramdani"
+                android:layout_margin="16dp"
+                android:onClick="ramdani"/>
+
+            <ImageView
+                android:id="@+id/riko"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_riko"
+                android:layout_margin="16dp"
+                android:onClick="riko"/>
+
+            <ImageView
+                android:id="@+id/riko3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_riko"
+                android:layout_margin="16dp"
+                android:onClick="riko"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/ramdani2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_ramdani"
+                android:layout_margin="16dp"
+                android:onClick="ramdani"/>
+
+            <ImageView
+                android:id="@+id/riko2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_riko"
+                android:layout_margin="16dp"
+                android:onClick="riko"/>
+
+            <ImageView
+                android:id="@+id/riko4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="#f1f1f1"
+                android:src="@drawable/persija_riko"
+                android:layout_margin="16dp"
+                android:onClick="riko"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

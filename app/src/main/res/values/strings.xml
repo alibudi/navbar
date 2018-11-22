@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DSchool</string>
+    <string name="home">home</string>
+    <string name="gallery">gallery</string>
+    <string name="share">share</string>
+    <string name="help">help</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="info">Aplikasi DSchool Untuk Mencari tahu sekolah yang berada di Tegal</string>
+    <string name="tatacara">Tata Cara :
+                            1.Buka Aplikasi
+                            2.Login (Optional)
+                            3.Pilih Sekolah yang anda ingin</string>
+
+</resources>
